@@ -94,7 +94,7 @@ const isOutsideClicked = (event) => {
         <div class="p-avatar p-component p-avatar-image p-avatar-circle p-avatar-lg border-1 surface-border"
           data-pc-name="avatar" data-pc-section="root">
           <!-- <img src="/layout/images/andre.jpg" data-pc-section="image" /> -->
-          <Avatar image="/layout/images/andre.jpg" shape="circle" />
+          <Avatar image="layout/images/andre.jpg" shape="circle" />
         </div>
       </button>
       <button @click="onSettingsClick()" class="p-link layout-topbar-button mr-2">
